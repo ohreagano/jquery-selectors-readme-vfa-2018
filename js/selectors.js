@@ -1,4 +1,7 @@
 // declare your functions here...
-$('selector-goes-here')
 
-function paragraphSelector()
+
+function paragraphSelector() {
+  var pTags = $('p')
+  console.log(pTags)
+}
